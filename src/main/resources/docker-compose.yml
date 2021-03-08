@@ -1,0 +1,7 @@
+version: '3'
+services:
+  api:
+   image: https://220996039165.dkr.ecr.us-east-2.amazonaws.com
+   build: .
+   ports:
+     - "8091:8095"
